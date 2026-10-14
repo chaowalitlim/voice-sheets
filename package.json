@@ -1,0 +1,19 @@
+{
+  "name": "voice-sheets",
+  "version": "1.0.0",
+  "description": "Log items into your Google Sheet by speaking naturally.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  }
+}
